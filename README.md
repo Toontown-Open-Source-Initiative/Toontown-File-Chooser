@@ -9,5 +9,6 @@ This tool has been adapted for Toontown, and has also received some upgrades. Th
 
 You may use this script in any project you'd like.
 Link to the original: https://discourse.panda3d.org/t/sample-basic-file-browser/2507
+Link to what this interface looks like: https://i.imgur.com/EECDxYA.png
 
 Happy coding!
