@@ -29,11 +29,11 @@ class FileBrowser(DirectObject.DirectObject):
         self.prevdir = None
         self.selectedFile = None
         self.browserCreated = None
-        self.browser = None
         self.fileList = None
         self.fileNameEntry = None
 
-        self.browser.destroy()
+        if self.browser:
+            self.browser.destroy()
         del self.browser
 
         self.ignoreAll()
